@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Pet Paradise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightblue;
+        }
+        header {
+            font-family: 'courier new';
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1{
+            border:2px solid white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: lightgrey;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        audio {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .vcontainer{
+            display: flex;
+            justify-content:center;
+        }
+        .vcontainer video{
+            margin:0 10px;
+            border:2px solid  violet-;
+            border-radius: 10px;
+        }
+                
+        .im{
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy to visit Pet Paradise</h1>
+    </header>
+    <div class="container">
+        <h2>About Us</h2>
+        <p>We at Pet Paradise are dedicated to providing the ultimate experience for your beloved pets. Our state-of-the-art facilities and caring staff ensure that your pets receive the love and attention they deserve.</p>
+        <img src="back.jpg" width="200px" height="auto" class="im">
+        <h3>10 Sounds Pets Absolutely Love</h3>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h3>Watch Our Promo Video</h3><br>
+        <div class="vcontainer">
+           <video src="v1.mp4" controls width="100px"></video>
+           <video src="v2.mp4" controls width="200px"></video>  
+           <video src="v3.mp4" controls width="200px"></video>
+        </div><br>
+        <a href="#">View more resuts...</a>
+        <p>Contact us today to book a visit and experience Pet Paradise!</p>
+    </div>
+</body>
+</html>
