@@ -2,14 +2,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #666;
+    background-color: black;
+    color: white;
+
 }
 
 nav {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #333;
+    background-color: black;
     overflow: hidden;
     display: flex;
 }
@@ -47,17 +49,24 @@ h1 {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    color: #000000;
+    color: white;
 }
 
 .information-link {
     text-align: center;
-    color: rgb(245, 6, 6);
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin-left: 40%;
+    padding: 10px;
     
 }
 
 .list{
-    text-align:right;
+    text-align: center;
 }
 
 .sidebar {
@@ -66,7 +75,7 @@ h1 {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #333;
+    background-color: violet;
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -76,10 +85,11 @@ h1 {
 }
 
 .company-name {
-    font-weight: bold;
-    color: rgb(8, 34, 63);
+    font-weight: strong;
+    color: yellow;
     text-align: center;
     margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .sidebar a {
@@ -91,7 +101,7 @@ h1 {
 }
 
 .sidebar a:hover {
-    background-color: #ddd;
+    background-color: silver;
     color: black;
 }
 
@@ -100,7 +110,14 @@ h1 {
     padding: 20px;
     background-size: cover;
     background-position: center;
-    background-color: #f3f3f4a0;
+    background-color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+.reg{
+    text-align: center;
+}
+.co{
+    margin-left: 35%;
+    margin-top: 20px;
 }
